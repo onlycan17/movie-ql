@@ -1,0 +1,20 @@
+{
+  "name": "movie-ql",
+  "version": "1.0.0",
+  "description": "Movie API with Graphql",
+  "main": "index.js",
+  "repository": "https://github.com/onlycan17/movie-ql.git",
+  "author": "Jin-Seok Oh",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.7",
+    "@babel/preset-env": "^7.14.7",
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  }
+}
